@@ -7,3 +7,4 @@ CONFIG_rfdc
 CONFIG_rfdc-read-write
 CONFIG_rfdc-selftest
 CONFIG_rfclk
+CONFIG_uart-test
