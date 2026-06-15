@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # bootExample Example
 
 ##  🎯 Overview.
@@ -60,3 +61,7 @@ TBU
 ### 📄 License
 
 This exercise is part of the main Baremetal : ARM Cortex-M Embedded Coding Exercises project and is released under the MIT License.
+=======
+# bootExample
+Very basic example project to inspect, work and understand how to use QEMU in Zynq UltraScale+ MPSoC, Petalinux and Vivado v 2023.2
+>>>>>>> 846c74c305e59435bf15818b9669d5e8434b017c
