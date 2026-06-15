@@ -1,3 +1,4 @@
+#include "uart-test.h"
 
 int main() {
     int fd;
