@@ -1,0 +1,61 @@
+
+# =========================================================
+# GITIGNORE GLOBAL AGNOSTIC
+# =========================================================
+
+# 1. TOTAL BLOCK (Defensive)
+*
+
+# 2. ALLOWED DIRECTORIES (To git navigation)
+!*/
+
+# ---------------------------------------------------------
+# PETALINUX (SW) - Based in official documents
+# ---------------------------------------------------------
+# Open the doors to main directories
+!**/**/project-spec/
+!**/**/project-spec/meta-user/
+!**/**/project-spec/configs/
+!**/**/project-spec/hw-description/
+!**/**/project-spec/decoupling-dtsi/
+
+# Authorize ALL the contents of folders and subfolders
+!**/**/project-spec/meta-user/**
+!**/**/project-spec/configs/**
+!**/**/project-spec/hw-description/**
+!**/**/project-spec/decoupling-dtsi/**
+
+# Authorize different files in the root directory
+!**/**/project-spec/attributes
+!**/**/project-spec/config
+!**/**/project-spec/rootfs_config
+
+# Clean the trash!
+**/**/project-spec/**/*.old
+**/**/project-spec/**/*.log
+**/**/project-spec/**/.Xil/
+**/**/project-spec/configs/.statistics
+**/**/project-spec/hw-description/psu_init.*
+**/**/*.o
+**/**/*.jou
+
+# From Petalinux documentation
+!*/**/.petalinux/
+*/**/.petalinux/*
+!*/**/.petalinux/metadata
+**/**/build/
+**/**/images/linux/
+**/**/pre-built/linux/
+**/**/components/plnx-workspace/
+**/**/components/yocto/
+
+# Authorize vivado files to regenerate the project
+!**/**/*.srcs/*
+!**/**/*.xpr
+!**/**/*.xsa
+
+# ---------------------------------------------------------
+# GLOBAL EXCEPTIONS
+# ---------------------------------------------------------
+!.gitignore
+!README.md
