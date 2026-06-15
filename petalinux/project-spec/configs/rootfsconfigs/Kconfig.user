@@ -23,4 +23,8 @@ config rfdc-selftest
 	 bool "rfdc-selftest"
 	 help
 	
+config uart-test  
+	 bool "uart-test"
+	 help
+	
 endmenu
