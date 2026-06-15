@@ -1,3 +1,14 @@
 /include/ "system-conf.dtsi"
 / {
 };
+
+/* UART0 - Main console (display) */
+&uart0 {
+    status = "okay";
+};
+
+/* UART1 - The new interface to send the data */
+&uart1 {
+    status = "okay";
+    /* We are using the QEMU in this instance */
+};
