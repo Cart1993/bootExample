@@ -52,7 +52,7 @@ TBU
 
 1. Clone this specific repository:
 
-> git clone git@github.com:cart1993/ZynqUltraScale-RFSoC-DMA.git
+> git clone git@github.com:Cart1993/bootExample.git
 
 2. Open the project file .XPR file into the vivado or you may just import te .xsa into your petalinux environment.
 
